@@ -1,5 +1,5 @@
 {
-    "name": "Microbit - Haptic Sleeve",
+    "name": "Haptics",
     "description": "",
     "dependencies": {
         "core": "*",
