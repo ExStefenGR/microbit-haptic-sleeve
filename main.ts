@@ -16,6 +16,9 @@ radio.onReceivedNumber(function (receivedNumber) {
         pins.analogWritePin(AnalogPin.P1, 1023)
     }
 })
+/**
+ * The code is both for receiver and sender, For the arms we only need the radio received and the start function and for probe bit we only need the send function on the forever loop
+ */
 radio.setGroup(1)
 radio.setTransmitPower(7)
 basic.forever(function () {
